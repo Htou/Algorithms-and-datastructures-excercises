@@ -1,15 +1,3 @@
-"""
-Analytical Skills
-Opgave: insertion sort
-
-(c) 2019 Hogeschool Utrecht
-Tijmen Muller (tijmen.muller@hu.nl)
-
-
-Let op! Je mag voor deze opgave geen extra modules importeren met 'import'.
-"""
-
-
 def insert(lst, grens, waarde):
     """ Voegt de waarde op de juiste plek in het gesorteerde deel van lijst lst """
     # De lijst *lst* is gesorteerd van lst[0] t/m lst[grens]
