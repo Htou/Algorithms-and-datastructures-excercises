@@ -1,15 +1,3 @@
-"""
-Analytical Skills
-Opgave: recursie
-
-(c) 2019 Hogeschool Utrecht
-Tijmen Muller (tijmen.muller@hu.nl)
-
-
-Let op! Je mag voor deze opgave geen extra modules importeren met 'import'.
-"""
-
-
 def faculteit(n):
     # Base case
     if n == 0:
