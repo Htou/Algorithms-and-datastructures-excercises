@@ -1,27 +1,3 @@
-""" coding=utf-8
-
-Analytical Skills
-Practicum 1: getallen
-
-(c) 2019 Hogeschool Utrecht
-Bart van Eijkelenburg (bart.vaneijkelenburg@hu.nl)
-Tijmen Muller (tijmen.muller@hu.nl)
-
-
-Naam: Hichem Touati
-Klas: V1C
-Studentnummer: 1771690
-
-
-Opdracht: werk onderstaande functies uit.
-
-Je kunt je functies testen met het gegeven raamwerk door het bestand uit te voeren (of met behulp
-van pytest, als je weet hoe dat werkt). Lever je werk in op Canvas als alle tests slagen.
-
-Let op! Je mag voor deze opdracht geen extra modules importeren met 'import'.
-"""
-
-
 def floor(real):
     """ Retourneert het grootste gehele getal (int), dat kleiner dan of gelijk is aan real (float). """
     return real - real % 1
