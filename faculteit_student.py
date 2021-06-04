@@ -1,15 +1,3 @@
-"""
-Analytical Skills
-Opgave: faculteit (iteratief)
-
-(c) 2019 Hogeschool Utrecht
-Tijmen Muller (tijmen.muller@hu.nl)
-
-
-Let op! Je mag voor deze opgave geen extra modules importeren met 'import'.
-"""
-
-
 def faculteit_iteratief(n):
     """ Berekent n! op iteratieve wijze. """
     res = 1
