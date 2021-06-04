@@ -1,28 +1,3 @@
-""" coding=utf-8
-
-Analytical Skills
-Practicum 2: statistiek
-
-(c) 2019 Hogeschool Utrecht
-Bart van Eijkelenburg (bart.vaneijkelenburg@hu.nl)
-Tijmen Muller (tijmen.muller@hu.nl)
-
-
-Naam: Hichem
-Klas: V1C
-Studentnummer: 1771690
-
-
-Opdracht: werk onderstaande functies uit. Elke functie krijgt als argument een
-          (mogelijk ongesorteerde) lijst *lst* met gehele getallen (int).
-
-Je kunt je functies testen met het gegeven raamwerk door het bestand uit te voeren (of met behulp
-van pytest, als je weet hoe dat werkt). Lever je werk in op Canvas als alle tests slagen.
-
-Let op! Je mag voor deze opdracht geen extra modules importeren met 'import'.
-"""
-
-
 def mean(lst):
     """ Retourneert het gemiddelde (float) van de lijst lst. """
     return sum(lst) / len(lst)
