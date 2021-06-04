@@ -1,15 +1,3 @@
-"""
-Analytical Skills
-Opgave: selection sort
-
-(c) 2019 Hogeschool Utrecht
-Tijmen Muller (tijmen.muller@hu.nl)
-
-
-Let op! Je mag voor deze opgave geen extra modules importeren met 'import'.
-"""
-
-
 def swap(lst, index1, index2):
     """ Verwisselt de waardes op positie index1 en index2 in lijst lst """
     lst[index1] = lst[index2]
