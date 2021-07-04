@@ -13,14 +13,14 @@ public class Fibonacci {
         }
 
         System.out.println(list);
-        return list.get(list.size()-1);
+        return list.get(n);
     }
 
 
     public static void main(String args[]) {
 //        Scanner in = new Scanner(System.in);
 //        int n = in.nextInt();
-        int n = 1000;
+        int n = 32;
 
         System.out.println(calc_fib(n));
     }
