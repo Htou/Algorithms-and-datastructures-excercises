@@ -3,17 +3,16 @@ import java.util.Scanner;
 
 public class Fibonacci {
   private static long calc_fib(int n) {
+    if (n <= 1) {
+      return n;
+    }
+    
     ArrayList<Long> list = new ArrayList();
 
     list.add(0L);
     list.add(1L);
-      
-    if (n <= 1) {
-      return n;
-    }
 
     for (int i = 1; i < n; i++) {
-
       list.add(list.get(i) + list.get(i - 1));
     }
 
