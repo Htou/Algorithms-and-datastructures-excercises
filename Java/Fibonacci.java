@@ -13,7 +13,7 @@ public class Fibonacci {
         list.add(1L);
 
         for (int i = 1; i < n; i++) {
-            list.add(list.get(i) + list.get(i - 1));
+            list.add(list.get(i - 1) + list.get(i - 2));
         }
 
         System.out.println(list);
