@@ -15,6 +15,6 @@ public class GCD {
 //    int a = scanner.nextInt();
 //    int b = scanner.nextInt();
 
-    System.out.println(euclidGCD(235, 234436));
+    System.out.println(euclidGCD(28851538, 1183019));
   }
 }
