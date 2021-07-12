@@ -10,10 +10,7 @@ public class FibonacciSumSquares {
 
         list.add(0L);
         list.add(1L);
-
-        sumOfSquares.add(0L);
-        sumOfSquares.add(1L);
-
+        
         long sum = ((list.get(0) * list.get(0)) + (list.get(1) * list.get(1)));
 
         for (int i = 2; i <= n; ++i) {
