@@ -12,14 +12,13 @@ public class DotProduct {
         ArrayList<Integer> aX = new ArrayList();
         ArrayList<Integer> bX = new ArrayList();
 
-
         for (int i = 0; i < a.length; i++) {
             aX.add(a[i]);
             bX.add(b[i]);
         }
 
-        Collections.sort(aX, Collections.reverseOrder());
-        Collections.sort(bX, Collections.reverseOrder());
+        aX.sort(Collections.reverseOrder());
+        bX.sort(Collections.reverseOrder());
 
         for (int j = 0; j < aX.size(); j++) {
             result += (aX.get(j) * bX.get(j));
@@ -40,13 +39,16 @@ public class DotProduct {
 //        for (int i = 0; i < n; i++) {
 //            b[i] = scanner.nextInt();
 //        }
-        int[] a = {23};
-        int[] b = {39};
 
-//        int[] a = {1, 3, -5};
-//        int[] b = {-2, 4, 1};
+//        int[] a = {23};
+//        int[] b = {39};
+
+        int[] a = {1, 3, -5};
+        int[] b = {-2, 4, 1};
 
         System.out.println(maxDotProduct(a, b));
     }
 }
+
+
 
